@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 100px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://t3.ftcdn.net/jpg/02/55/32/76/360_F_255327626_mCd1WgMWujZek6jZQtFeD9ffywkuQaQ3.jpg');
+  color: black;
+  text-decoration-color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* Products Section */
+.products {
+  background-image: url('https://www.shutterstock.com/image-illustration/clothes-on-hanger-storage-shelf-600nw-1933100570.jpg');
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Order Form */
+form {
+  background-color: white;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

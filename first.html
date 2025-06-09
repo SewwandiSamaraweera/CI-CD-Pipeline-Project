@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Try Me - Clothing Store</title>
+  <link rel="stylesheet" href="first.css" />
+
+
+</head>
+<body>
+
+  <header>
+    <h1>Try Me</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Stylish Clothes With Try Me</h1>
+    <p>Discover your style. Order now!</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81QkyQQERpL.AC_UY1100.jpg" alt="Frock">
+        <h3>Elegent frock</h3>
+        <p>Rs.1600</p>
+      </div>
+      <div class="product">
+        <img src="https://coolplanet.lk/cdn/shop/files/DSC03192.jpg?v=1742306257&width=1200" alt="Shirt">
+        <h3>Cool Shirt</h3>
+        <p>Rs.1300</p>
+      </div>
+      <div class="product">
+        <img src="https://www.mumkins.in/cdn/shop/collections/Catlog-Girls-western.jpg?v=1686808134" alt="Girl">
+        <h3>Stylish Jeans</h3>
+        <p>Rs.1800</p>
+      </div>
+      <div class="product">
+        <img src="https://i.pinimg.com/474x/96/8f/08/968f08a96230b1b45cecb313c8909bc4.jpg" alt="Boy">
+        <h3>Comfortable Kit</h3>
+        <p>Rs,1400</p>
+      </div>
+      <!-- Add more products here -->
+    </div>
+  </section>
+
+  <section id="order">
+    <form>
+      <h2>Place Your Order</h2>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <select required>
+        <option value="">Select Product</option>
+        <option value="shirt">Elegant Dress</option>
+        <option value="dress">Cool Shirt</option>
+        <option value="dress">Stylish Jeans</option>
+        <option value="dress">Comfortable Kit</option>
+      </select>
+      <input type="number" placeholder="Quantity" min="1" required />
+      <button type="submit">Order Now</button>
+    </form>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at tryme@tryme.com</p>
+    <p>&copy; 2025 Try Me</p>
+  </footer>
+
+  <script src="first.js"></script>
+
+</body>
+</html>
